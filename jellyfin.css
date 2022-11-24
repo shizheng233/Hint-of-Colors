@@ -37,42 +37,6 @@
     --admin-shutdown-bg: pink; /* Sets the background colour of the admin "shutdown" button */
 }
 
-@font-face {
-    font-family: 'Netflix Sans';
-    font-weight: 100;
-    src: local('Source Han Sans SC VF'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
-}
-
-@font-face {
-    font-family: 'Netflix Sans';
-    font-weight: 300;
-    src:  local('Source Han Sans SC VF'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff) format('woff')
-}
-
-@font-face {
-    font-family: 'Netflix Sans';
-    font-weight: 400;
-    src:  local('Source Han Sans SC VF'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
-}
-
-@font-face {
-    font-family: 'Netflix Sans';
-    font-weight: 700;
-    src:  local('Source Han Sans SC VF'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
-}
-
-@font-face {
-    font-family: 'Netflix Sans';
-    font-weight: 800;
-    src:  local('Source Han Sans SC VF'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff) format('woff')
-}
-
-@font-face {
-    font-family: 'Netflix Sans';
-    font-weight: 900;
-    src:  local('Source Han Sans SC VF'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff) format('woff')
-}
-
 #loginPage {
     background: url(https://i.imgur.com/Zsalrtb.jpg);
     background-size: cover;
@@ -592,29 +556,25 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Netflix Sans' !important
+    
 }
 
 .videoSubtitles {
-    font-family: 'Netflix Sans', sans-serif !important;
     font-weight: 700 !important;
     text-shadow: 0 0 8px #000 !important
 }
 
 video::-webkit-media-text-track-display {
-    font-family: "Netflix Sans", sans-serif !important;
     font-weight: 700 !important;
     text-shadow: #000 0 0 .2em !important
 }
 
 video::-webkit-media-text-track-container {
-    font-family: "Netflix Sans", sans-serif !important;
     font-weight: 700 !important;
     text-shadow: #000 0 0 .2em !important
 }
 
 video:cue {
-    font-family: "Netflix Sans", sans-serif !important;
     font-weight: 700 !important;
     text-shadow: #000 0 0 .2em !important
 }
@@ -1053,7 +1013,6 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 .sessionCardFooter.cardFooter,
 .visualCardBox-cardFooter {
-    font-family: 'Netflix Sans';
     font-size: larger;
     color: #ffffff;
     border-bottom-left-radius: var(--rounding);
